@@ -8,7 +8,7 @@ sap.ui.define(['sap/fe/test/ObjectPage'], function(ObjectPage) {
 
     return new ObjectPage(
         {
-            appId: 'com.workflowmonitor.workflowmonitor',
+            appId: 'workflowmonitor',
             componentId: 'workflowObjectPage',
             contextPath: '/workflow'
         },

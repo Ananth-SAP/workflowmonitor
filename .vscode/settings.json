@@ -8,5 +8,13 @@
     // "tab",
     // "tsv"
   ],
-  "SAP HANA Database Explorer.UseObjectsDefinitionForSqlGeneration.RetentionTime": 7
+  "SAP HANA Database Explorer.UseObjectsDefinitionForSqlGeneration.RetentionTime": 7,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "workflow.db",
+      "database": "${workspaceFolder:workflow}/workflow.db"
+    }
+  ]
 }

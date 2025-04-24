@@ -1,0 +1,6 @@
+code,criticality,name,descr
+RUNNING,2,Running,Running
+ERRONEOUS,1,Error,Error
+COMPLETED,3,COMPLETED,Completed
+SUSPENDED,2,Suspended,Suspended
+CANCELED,2,Canceled,Canceled

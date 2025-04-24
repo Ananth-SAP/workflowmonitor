@@ -220,4 +220,3 @@ annotate service.workflow with {
 annotate service.workflow with {
     recipientUsers @UI.MultiLineText : true
 };
-

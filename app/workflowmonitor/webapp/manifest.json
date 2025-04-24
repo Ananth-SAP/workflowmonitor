@@ -1,7 +1,7 @@
 {
   "_version": "1.65.0",
   "sap.app": {
-    "id": "com.workflowmonitor.workflowmonitor",
+    "id": "workflowmonitor",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.17.3",
-      "toolsId": "48e54bfb-139b-4770-b533-8fd4261a1bc6"
+      "toolsId": "b0e2c51b-3364-4fb7-8f20-f8e05836db10"
     },
     "dataSources": {
       "mainService": {
@@ -27,10 +27,10 @@
     },
     "crossNavigation": {
       "inbounds": {
-        "workflowmonitor-display": {
-          "semanticObject": "workflowmonitor",
+        "monitor-display": {
+          "semanticObject": "monitor",
           "action": "display",
-          "title": "{{workflowmonitor-display.flpTitle}}",
+          "title": "{{monitor-display.flpTitle}}",
           "signature": {
             "parameters": {},
             "additionalParameters": "allowed"
@@ -58,7 +58,7 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.134.1",
+      "minUI5Version": "1.135.0",
       "libs": {
         "sap.m": {},
         "sap.ui.core": {},
@@ -73,7 +73,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "com.workflowmonitor.workflowmonitor.i18n.i18n"
+          "bundleName": "workflowmonitor.i18n.i18n"
         }
       },
       "": {
@@ -126,8 +126,7 @@
               "controlConfiguration": {
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
-                    "type": "ResponsiveTable",
-                    "selectionMode": "Multi"
+                    "type": "ResponsiveTable"
                   }
                 }
               },

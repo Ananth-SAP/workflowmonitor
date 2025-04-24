@@ -1,7 +1,7 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Mon Apr 21 2025 08:36:44 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Thu Apr 24 2025 10:56:03 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.17.3|
 |**Generation Platform**<br>SAP Business Application Studio|
@@ -10,9 +10,9 @@
 |**Service URL**<br>http://localhost:4004/odata/v4/workflowservice/|
 |**Module Name**<br>workflowmonitor|
 |**Application Title**<br>App Title|
-|**Namespace**<br>com.workflowmonitor|
+|**Namespace**<br>|
 |**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.134.1|
+|**UI5 Version**<br>1.135.0|
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|

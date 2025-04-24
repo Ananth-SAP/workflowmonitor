@@ -1,6 +1,6 @@
 namespace workflow;
 
-using {sap} from '@sap/cds/common';
+
 
 entity workflow {
   key  id                : UUID;
@@ -24,7 +24,7 @@ entity workflow {
 }
 
 
-entity WorkflowStatus : sap.common.CodeList {
+entity WorkflowStatus   {
     key code        : String enum {
 
              R  = 'RUNNING';
@@ -34,5 +34,7 @@ entity WorkflowStatus : sap.common.CodeList {
             C = 'COMPLETED';
         } default 'RUNNING'; //> will be used for foreign keys as well
         criticality : Integer; //  2: yellow colour,  3: green colour, 1: Red
+        name:String(10);
+        descr:String(10);
 
 }

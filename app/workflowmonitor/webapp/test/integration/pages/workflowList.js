@@ -8,7 +8,7 @@ sap.ui.define(['sap/fe/test/ListReport'], function(ListReport) {
 
     return new ListReport(
         {
-            appId: 'com.workflowmonitor.workflowmonitor',
+            appId: 'workflowmonitor',
             componentId: 'workflowList',
             contextPath: '/workflow'
         },

@@ -3,7 +3,7 @@ sap.ui.define(
     function (Component) {
         "use strict";
 
-        return Component.extend("com.workflowmonitor.workflowmonitor.Component", {
+        return Component.extend("workflowmonitor.Component", {
             metadata: {
                 manifest: "json"
             }
